@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>冨善寺（ふぜんじ）｜埼玉県朝霞市</title>
+  <style>
+    body {
+      font-family: "Hiragino Mincho ProN", serif;
+      margin: 0;
+      background-color: #fdfaf5;
+      color: #333;
+    }
+    header {
+      background-image: url('temple-hero.jpg'); /* 背景画像を差し替えてください */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    nav {
+      background-color: #8b0000;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #8b0000;
+      padding-bottom: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>冨善寺（ふぜんじ）</h1>
+  <p>埼玉県朝霞市の静寂と祈りの寺</p>
+</header>
+
+<nav>
+  <a href="#about">冨善寺について</a>
+  <a href="#events">年中行事</a>
+  <a href="#services">ご供養</a>
+  <a href="#access">アクセス</a>
+  <a href="#contact">お問い合わせ</a>
+</nav>
+
+<section id="about">
+  <h2>冨善寺について</h2>
+  <p>冨善寺は、○○宗に属する寺院で、江戸時代初期に創建されました。地域の皆さまの心の拠り所として、日々祈りと供養を続けております。</p>
+  <p>ご本尊：○○如来</p>
+  <p>ご住職の言葉：「心静かに、仏と向き合う時間を大切に」</p>
+</section>
+
+<section id="events">
+  <h2>年中行事</h2>
+  <table>
+    <tr><th>月</th><th>行事</th><th>内容</th></tr>
+    <tr><td>1月</td><td>初詣</td><td>新年のご祈願</td></tr>
+    <tr><td>3月</td><td>春彼岸法要</td><td>ご先祖様への供養</td></tr>
+    <tr><td>8月</td><td>盂蘭盆会</td><td>お盆の法要</td></tr>
+    <tr><td>12月</td><td>除夜の鐘</td><td>一年の締めくくり</td></tr>
+  </table>
+</section>
+
+<section id="services">
+  <h2>ご供養・ご祈願</h2>
+  <ul>
+    <li>永代供養</li>
+    <li>水子供養</li>
+    <li>法事・葬儀のご相談</li>
+    <li>厄除け・交通安全祈願</li>
+  </ul>
+</section>
+
+<section id="access">
+  <h2>アクセス</h2>
+  <p>〒351-0000 埼玉県朝霞市○○丁目○○番地</p>
+  <p>東武東上線「朝霞駅」より徒歩○分</p>
+  <p>駐車場あり（○台）</p>
+  <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section id="contact">
+  <h2>お問い合わせ</h2>
+  <form>
+    <label>お名前</label>
+    <input type="text" name="name">
+    <label>メールアドレス</label>
+    <input type="email" name="email">
+    <label>お問い合わせ内容</label>
+    <textarea name="message" rows="5"></textarea>
+    <button type="submit">送信</button>
+  </form>
+  <p>📞 048-XXX-XXXX　📧 info@fuzentemple.jp</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 冨善寺 - 埼玉県朝霞市</p>
+</footer>
+
+</body>
+</html>
